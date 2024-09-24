@@ -1,0 +1,46 @@
+.digits {
+  margin-bottom: 100px;
+}
+
+.digits__title {
+    margin-bottom: 20px;
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 1.15;
+  }
+  
+  .digits__subtitle {
+    line-height: 34px;
+    font-size: 24px;
+  }
+  
+  .digits__inner {
+    width: 1100px;
+    margin: 60px auto 0;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 60px;
+    justify-content: space-between;
+  }
+  
+  .digits__item {
+    width: 250px;
+  }
+  
+  .digits__item-title {
+    font-weight: 600;
+    line-height: 1.15;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .digits__item-text {
+    font-size: 18px;
+    line-height: 1.2;
+  }
+  
+  .digits__item-text i {
+    font-style: normal;
+    display: inline-block;
+    margin-top: 20px;
+  }

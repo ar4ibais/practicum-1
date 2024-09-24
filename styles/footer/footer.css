@@ -1,0 +1,67 @@
+.footer {
+    background-color: #1f1f1f;
+    color: #fff;
+    padding: 60px 0 40px;
+  }
+  
+  .footer__inner {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    min-height: 300px;
+  }
+  
+  .footer__left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .footer__right {
+    display: flex;
+    width: 400px;
+    justify-content: space-between;
+    align-items: start;
+  }
+  
+  .footer__right-title {
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+  
+  .footer__right-list__item {
+    font-size: 18px;
+    line-height: 30px;
+  }
+  
+  .footer__right-list__item + .footer__right-list__item {
+    margin-top: 12px;
+  }
+  
+  .footer__right-list__item--icon {
+    position: relative;
+  }
+  
+  .footer__right-list__item--icon::before {
+    position: absolute;
+    content: '';
+    width: 16px;
+    height: 16px;
+    left: -20px;
+    top: 7px;
+    background-repeat: no-repeat;
+  }
+  
+  .footer__right-list__item--yt::before { 
+    background-image: url('../images/youtube_color_white.svg');
+  }
+  .footer__right-list__item--vk::before {
+    background-image: url('../images/vk_color_white.svg');
+  
+  }
+  .footer__right-list__item--tiktok::before {
+    background-image: url('../images/tiktok_color_white.svg');
+  }

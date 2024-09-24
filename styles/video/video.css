@@ -1,0 +1,11 @@
+.video {
+    position: relative;
+    z-index: 2;
+    margin: 100px auto -150px;
+}
+
+.video__inner {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}

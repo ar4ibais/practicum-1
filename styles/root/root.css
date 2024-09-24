@@ -1,0 +1,51 @@
+.page {
+    min-width: 1100px;
+    /* мы ещё не умеем делать мобильную версию сайта, */
+    /* поэтому выше установлена минимальная ширина страницы */
+    max-width: 1600px;
+    /* выше установили ограничение по максимальной ширине */
+    margin: 0 auto;
+    /* выше для экранов больше 1600px отцентрировали весь контент */
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+}
+
+.blue {
+    color: #2f80ed;
+}
+
+.table__cell_theme_dark {
+    width: 200px;
+    color: white;
+    margin-right: 0;
+    margin-top: 80px;
+  }
+
+  .description,
+.digits,
+.feynman {
+  margin-top: 100px;
+}
+
+.digits__title,
+.digits__subtitle,
+.kaufman__title,
+.kaufman__subtitle {
+  text-align: center;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.title {
+  font-size: 60px;
+  line-height: 1.15;
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.subtitle {
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 50px;
+  line-height: 34px;
+}

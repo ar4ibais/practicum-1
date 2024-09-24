@@ -1,0 +1,58 @@
+.kaufman {
+    position: relative;
+    padding: 90px 0;
+    background-color: #1f1f1f;
+    color: #fff;
+    z-index: 3;
+  }
+  
+  .kaufman::after {
+    content: '';
+    position: absolute;
+    width: 577px;
+    height: 777px;
+    background-size: cover;
+    top: 0px;
+    right: 0px;
+    z-index: -1;
+    background-repeat: no-repeat;
+    background-image: url(../../images/kaufman-triangle.svg);
+  }
+  
+  .kaufman__title {
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 1.15;
+    margin-bottom: 20px;
+  }
+  
+  .kaufman__subtitle {
+    line-height: 34px;
+    font-size: 24px;
+    margin-bottom: 80px;
+  }
+  
+  .kaufman__inner {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 80px;
+    margin: 0 auto;
+  }
+  
+  .kaufman__item {
+    width: 210px;
+  }
+  
+  .kaufman__item-title {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1.15;
+    margin-bottom: 20px;
+  }
+  
+  .kaufman__item-text {
+    line-height: 1.2;
+    font-size: 18px;
+  }
